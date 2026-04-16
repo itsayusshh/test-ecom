@@ -1,0 +1,43 @@
+.prodcutListingPage {
+  display: flex;
+  gap: 2.4rem;
+  margin: 2rem;
+  justify-content: center;
+}
+
+button {
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+  width: 306px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+button:active {
+  transform: scale(0.95);
+  background-color: grey;
+}
+
+p {
+  cursor: pointer;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+img {
+  height: 306px;
+  width: 306px;
+}
+
+@media (max-width: 900px) {
+  .prodcutListingPage {
+    display: block;
+    justify-content: center;
+    margin: 3em;
+  }
+}
